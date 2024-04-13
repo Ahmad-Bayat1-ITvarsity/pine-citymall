@@ -1,0 +1,175 @@
+body{
+    padding-top: 120px;
+    margin: 0;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-style:initial;
+    
+}
+
+#header{
+    position: fixed;
+    top: 0px;
+    z-index: 500;
+    width: 100%;
+    height: 80px;
+    background-image: url('images/backround-logo1.jpg');
+    background-repeat: repeat-x;
+    
+    
+}
+
+#header img{
+    align-items: center;
+    display: block;
+    margin: auto;
+    height: 90%;
+    padding-top: 15px;
+    width: 50%;
+    
+}
+
+
+
+/*=============TOP TAB=============*/
+
+#top-tab {
+    top: 80px;
+    position: fixed;
+    left: 0;
+    z-index: 500;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(255, 109, 12);
+}
+
+
+#top-tab a {
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 25%;
+    height: 35px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: Helvetica;
+    padding-top: 12px;
+    
+}
+
+/*=============HOPE PAGE IMGS=============*/
+
+#main-home-img a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    border: 10px solid blue;
+    border-radius: 15px ;
+    cursor: pointer;
+    margin: 10px 0px 0px 0px;
+    
+}
+
+#home-page{
+    padding-bottom: 50px;
+}
+
+
+/*=========bottom tab==========*/
+#bottom-tab{
+    bottom: 0px;
+    position: fixed;
+    left: 0;
+    z-index: 500;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(255, 109, 12);
+}
+
+#bottom-tab a{
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 50%;
+    height: 35px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: Helvetica;
+    padding-top: 12px;
+}
+
+/*=========SHOP LINKS==========*/
+#shop-list-backround-img {
+    padding-top: 120px;
+    padding-bottom: 50px;
+    background-image: url(images/shop-list-background.jpg);
+    background-repeat: repeat-y;
+    Background-size: cover;
+    width: 100%;
+}
+
+a.info-box{
+    text-decoration: none;
+    background: rgba(255, 255, 255, .8);
+    width: 90%;
+    height: 90px;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 1px;
+    font-family: Helvetica;
+}
+.info-box img{
+height: 70px;
+margin: 10px;
+float: left;
+}
+.info-box h3{
+    padding: 0;
+    margin-bottom: 0;
+    width: 90%;
+    color: #572800;
+}
+.info-box p{
+    padding: 0;
+    margin: 0;
+    width: 90%;
+    color: #131313;
+}
+.info-box img.right-arrow{
+    float: right;
+    margin: 25px;
+    height: 40px;
+}
+
+/*=========CONTACT==========*/
+input{
+    width: 100%;
+    height: 25px;
+    margin: 12px 0;
+    border: 1px solid #929292;
+}
+
+textarea{
+    width: 100%;
+    height: 25px;
+    margin: 12px 0;
+    border: 1px solid #929292;
+}
+
+.button{
+    display: block;
+    background-color: forestgreen;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 12px 0;
+    padding: 8px 0;
+}
